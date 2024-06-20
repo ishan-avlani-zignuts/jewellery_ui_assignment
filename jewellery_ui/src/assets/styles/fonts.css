@@ -1,0 +1,20 @@
+/* @font-face {
+    font-family: 'MyCustomFont';
+    src: url('./assets/fonts/Bastiken.otf') format('otf'),
+      url('./assets/fonts/Bastiken Italic.ttf') format('ttf'),
+      url('./assets/fonts/Bastiken.otf') format('otf'),
+      url('./assets/fonts/Bastiken.ttf') format('ttf'),
+      url('./assets/fonts/Bastiken.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  } */
+
+
+  /* fonts.css */
+@font-face {
+    font-family: 'Bastiken';
+    src: url('../fonts/Bastiken.otf') format('opentype'),
+         url('../fonts/Bastiken.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
